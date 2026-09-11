@@ -1,0 +1,13 @@
+{
+  "name": "gretex/share-broking-backend",
+  "description": "Secure contact form backend for Gretex Share Broking.",
+  "license": "proprietary",
+  "require": {
+    "phpmailer/phpmailer": "^6.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gretex\\Backend\\": "src/"
+    }
+  }
+}

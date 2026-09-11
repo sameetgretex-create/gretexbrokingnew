@@ -1,0 +1,112 @@
+<?php require_once __DIR__ . '/../helpers/urlfetcher.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Office FD Calculator - Gretex Financial</title>
+    <link rel="stylesheet" href="<?= e(assetUrl('css/global.css')) ?>">
+    <link rel="stylesheet" href="<?= e(assetUrl('css/navbar.css')) ?>">
+    <link rel="stylesheet" href="<?= e(assetUrl('css/calculator-page.css')) ?>">
+    <link rel="stylesheet" href="<?= e(assetUrl('css/chatbot.css')) ?>">
+    <link rel="stylesheet" href="<?= e(assetUrl('css/footer.css')) ?>">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="<?= e(assetUrl('js/gretex-financial.js')) ?>"></script>
+    <script src="<?= e(assetUrl('js/calculator-functions.js')) ?>"></script>
+</head>
+
+<body class="calculator-shell-page">
+    <?php
+    $siteBase = '../';
+    include __DIR__ . '/../templates/navbar.php';
+    ?>
+
+
+
+
+    <main class="calculator-page">
+        <div class="calculator-hero">
+            <div class="container">
+                <div class="calculator-hero-content">
+                    <a href="index.php" class="back-link"><i data-lucide="arrow-left"></i><span>Back to Calculators</span></a>
+                    <h1 class="calculator-page-title">Post Office FD Calculator</h1>
+                    <p class="calculator-page-description">Government-backed fixed deposit with quarterly compounding</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="calculator-main-section">
+            <div class="container">
+                <?php require_once __DIR__ . '/../templates/calculator-modern-ui.php'; ?>
+
+                <div class="calculator-wrapper">
+                    <div class="calculator-info-section">
+                        <div class="calculator-info-card">
+                            <h2 class="calculator-info-title">About Post Office FD</h2>
+                            <div class="calculator-info-content">
+                                <p>100% safe, government-backed. Tenures: 1yr (6.9%), 2yr (7%), 3yr (7.1%), 5yr (7.5%). Quarterly compounding.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="calculator-form-section">
+                        <div class="calculator-card">
+                            <h2 class="calculator-section-title">Calculate Post Office FD</h2>
+                            <form class="calculator-form" id="calculatorForm" onsubmit="calcPOFDResult(event)">
+                                <div class="calculator-field">
+                                    <label for="pofd-amount">Deposit Amount (&#8377;)</label>
+                                    <input type="number" id="pofd-amount" required min="1000" max="900000" value="100000">
+                                </div>
+                                <div class="calculator-field">
+                                    <label for="pofd-tenure">Tenure</label>
+                                    <select id="pofd-tenure">
+                                        <option value="1">1 Year (6.9%)</option>
+                                        <option value="2">2 Years (7.0%)</option>
+                                        <option value="3">3 Years (7.1%)</option>
+                                        <option value="5" selected>5 Years (7.5%)</option>
+                                    </select>
+                                </div>
+                                <div class="calculator-actions">
+                                    <button type="submit" class="calculator-btn-calculate"><i data-lucide="calculator"></i> Calculate</button>
+                                    <button type="button" class="calculator-btn-reset" onclick="document.getElementById('calculatorForm').reset();var w=document.getElementById('pofdInlineWrap');if(w)w.classList.add('is-hidden');var c=document.getElementById('pofdResultsContent');if(c)c.innerHTML='';"><i data-lucide="refresh-cw"></i> Reset</button>
+                                </div>
+                            </form>
+                            <div id="pofdInlineWrap" class="calculator-inline-results is-hidden" aria-live="polite">
+                                <div id="pofdResultsContent"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+<script>
+        lucide.createIcons();
+        function calcPOFDResult(e){e.preventDefault();
+            // Reset previous reading first - clear results before calculating
+            const pofdResultsContent = document.getElementById('pofdResultsContent');
+            if (pofdResultsContent) pofdResultsContent.innerHTML = '';
+            
+            const amt=parseFloat(document.getElementById('pofd-amount').value);
+            const tenure=parseInt(document.getElementById('pofd-tenure').value);
+            const r=calcPOFD(amt,tenure);
+            document.getElementById('pofdResultsContent').innerHTML=`<div class="results-primary-card">
+                <div class="results-main">
+                    <div class="result-item"><span class="result-label">Principal:</span><span class="result-value">${formatCurrency(r.principal)}</span></div>
+                    <div class="result-item"><span class="result-label">Interest Rate:</span><span class="result-value">${r.interestRate}%</span></div>
+                    <div class="result-item"><span class="result-label">Interest Earned:</span><span class="result-value">${formatCurrency(r.interestEarned)}</span></div>
+                    <div class="result-item highlight"><span class="result-label">Maturity Amount:</span><span class="result-value">${formatCurrency(r.maturityAmount)}</span></div>
+                </div>
+            </div>`;
+            document.getElementById('pofdInlineWrap').classList.remove('is-hidden');
+        }
+    </script>
+    <?php include __DIR__ . '/../templates/footer.php'; ?>
+    <script>
+        if (typeof lucide !== 'undefined') {
+            lucide.createIcons();
+        }
+    </script>
+</body>
+
+</html>

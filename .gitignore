@@ -1,0 +1,10 @@
+.env
+.htaccess
+.codex
+.env.example
+.agents
+backend/.env
+backend/logs/*.log
+backend/vendor/
+backend/logs
+backend/docs

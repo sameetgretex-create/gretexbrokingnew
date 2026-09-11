@@ -1,0 +1,313 @@
+.industry-icon-media {
+    background: url(clientlib-site/resources/images/icon/communication.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-business,
+.industry-icon-media {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.industry-icon-business {
+    background: url(clientlib-site/resources/images/icon/capital_markets.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-investor {
+    background: url(clientlib-site/resources/images/icon/stock.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-insurance,
+.industry-icon-investor {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.industry-icon-insurance {
+    background: url(clientlib-site/resources/images/icon/insurance.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-banking {
+    background: url(clientlib-site/resources/images/icon/banking.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-banking,
+.industry-icon-communication {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.industry-icon-communication {
+    background: url(clientlib-site/resources/images/icon/communication.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-energy {
+    background: url(clientlib-site/resources/images/icon/energy.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-energy,
+.industry-icon-lifescience {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.industry-icon-lifescience {
+    background: url(clientlib-site/resources/images/icon/life_science.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-publicservices {
+    background: url(clientlib-site/resources/images/icon/public_services.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-publicservices,
+.industry-icon-travel {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.industry-icon-travel {
+    background: url(clientlib-site/resources/images/icon/travel.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-consumergoods {
+    background: url(clientlib-site/resources/images/icon/consumer_goods.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-consumergoods,
+.industry-icon-education {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.industry-icon-education {
+    background: url(clientlib-site/resources/images/icon/education.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-technology {
+    background: url(clientlib-site/resources/images/icon/hightech.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-informationservices,
+.industry-icon-technology {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.industry-icon-informationservices {
+    background: url(clientlib-site/resources/images/icon/communication.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-manufacturing {
+    background: url(clientlib-site/resources/images/icon/manufacturing.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-manufacturing,
+.industry-icon-retail {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.industry-icon-retail {
+    background: url(clientlib-site/resources/images/icon/retail.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-trending {
+    background: url(clientlib-site/resources/images/icon/capital_markets.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-glossary,
+.industry-icon-trending {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.industry-icon-glossary {
+    background: url(clientlib-site/resources/images/icon/glossary.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-regulation {
+    background: url(clientlib-site/resources/images/icon/registry.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-mail,
+.industry-icon-regulation {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.industry-icon-mail {
+    background: url(clientlib-site/resources/images/icon/mail.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-faq {
+    background: url(clientlib-site/resources/images/icon/help-circle.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-briefcase,
+.industry-icon-faq {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.industry-icon-briefcase {
+    background: url(clientlib-site/resources/images/icon/briefcase.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-building {
+    background: url(clientlib-site/resources/images/icon/building.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-building,
+.industry-icon-healthcare {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.industry-icon-healthcare {
+    background: url(clientlib-site/resources/images/icon/healthcare.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-fund {
+    background: url(clientlib-site/resources/images/icon/fund.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-crime,
+.industry-icon-fund {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.industry-icon-crime {
+    background: url(clientlib-site/resources/images/icon/crime.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-tax {
+    background: url(clientlib-site/resources/images/icon/tax.svg) no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.industry-icon-id {
+    background: url(clientlib-site/resources/images/icon/id.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-handshake,
+.industry-icon-id {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.industry-icon-handshake {
+    background: url(clientlib-site/resources/images/icon/handshake.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-globe {
+    background: url(clientlib-site/resources/images/icon/globe.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-globe,
+.industry-icon-lightbulb {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.industry-icon-lightbulb {
+    background: url(clientlib-site/resources/images/icon/lightbulb.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-environment {
+    background: url(clientlib-site/resources/images/icon/environment.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-environment,
+.industry-icon-product {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.industry-icon-product {
+    background: url(clientlib-site/resources/images/icon/product.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-coverage {
+    background: url(clientlib-site/resources/images/icon/coverage.svg) no-repeat;
+    background-size: contain
+}
+
+.industry-icon-buildings,
+.industry-icon-coverage {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.industry-icon-buildings {
+    background: url(clientlib-site/resources/images/icon/icon/buildings.svg) no-repeat;
+    background-size: contain
+}
