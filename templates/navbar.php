@@ -3,6 +3,7 @@ $siteBase = $siteBase ?? '';
 require_once __DIR__ . '/../helpers/urlfetcher.php';
 $currentPath = (string) parse_url((string) ($_SERVER['REQUEST_URI'] ?? ''), PHP_URL_PATH);
 $isCalculators = strpos($currentPath, '/calculators') !== false;
+$isServices = strpos($currentPath, '/services') !== false;
 ?>
 <header class="site-header">
     <div class="navbar-container" data-navbar>
@@ -20,7 +21,7 @@ $isCalculators = strpos($currentPath, '/calculators') !== false;
         <nav class="navbar-menu" id="primary-navigation" aria-label="Primary navigation" data-navbar-menu>
             <ul>
                 <li><a href="<?= e(url('about/')) ?>">About</a></li>
-                <li><a href="<?= e(url('services')) ?>">Products &amp; Services</a></li>
+                <li><a class="<?= $isServices ? 'is-active' : '' ?>" href="<?= e(url('services/')) ?>">Products &amp; Services</a></li>
                 <li><a class="<?= $isCalculators ? 'is-active' : '' ?>" href="<?= e(url('calculators/')) ?>">Calculators</a></li>
                 <li><a href="<?= e(url('downloads/')) ?>">Downloads</a></li>
                 <li><a href="<?= e(url('investor-relations/')) ?>">Investor Relations</a></li>

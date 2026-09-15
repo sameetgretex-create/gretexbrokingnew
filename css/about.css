@@ -451,6 +451,219 @@
     letter-spacing: -0.02em;
 }
 
+.about-section-heading--centered {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.about-section-badge {
+    display: inline-block;
+    margin: 0 0 22px;
+    padding: 8px 20px;
+    border-radius: 999px;
+    background: #e8f1fc;
+    color: #1c5fd6;
+    font-family: var(--font-body);
+    font-size: var(--text-caption);
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+.about-section-heading--centered h2 {
+    position: relative;
+    display: inline-block;
+    max-width: none;
+    padding-bottom: 20px;
+    font-size: clamp(1.7rem, 3.6vw, var(--text-section-heading));
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.about-section-heading--centered h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 64px;
+    height: 3px;
+    background: #298dff;
+    transform: translateX(-50%);
+}
+
+.about-section-subtitle {
+    margin: 18px 0 0;
+    color: #46515f;
+    font-family: var(--font-body);
+    font-size: clamp(1rem, 1.4vw, 1.1rem);
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.about-section-subtitle--accent {
+    color: #1c5fd6;
+    font-size: var(--text-caption);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+/* Leadership team */
+.about-leadership-team {
+    padding-bottom: clamp(86px, 9vw, 142px);
+}
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(20px, 2.4vw, 28px);
+}
+
+.team-grid .team-card {
+    flex: 0 1 calc((100% - 2 * clamp(20px, 2.4vw, 28px)) / 3);
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    padding: clamp(20px, 2.2vw, 28px) clamp(20px, 2.2vw, 28px) clamp(32px, 3.4vw, 40px);
+    border: 1px solid rgba(16, 75, 136, 0.14);
+    border-radius: 14px;
+    background: #f7f9fc;
+}
+
+.team-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 88px;
+    height: 88px;
+    margin: 0 0 16px;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #b7c0cc;
+}
+
+.team-avatar svg {
+    width: 34px;
+    height: 34px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.team-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.team-experience {
+    display: inline-block;
+    align-self: flex-start;
+    margin: 0 0 14px;
+    padding: 5px 14px;
+    border-radius: 999px;
+    background: #e8f1fc;
+    color: #1c5fd6;
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.team-card h3 {
+    margin: 0 0 6px;
+    color: #11151b;
+    font-family: var(--font-display);
+    font-size: var(--text-component-heading);
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+}
+
+.team-role {
+    margin: 0 0 4px;
+    color: #104b88;
+    font-family: var(--font-body);
+    font-size: var(--text-caption);
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+.team-company {
+    margin: 0 0 18px;
+    color: #5b6b7f;
+    font-family: var(--font-body);
+    font-size: var(--text-caption);
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.team-expertise-label {
+    margin: 0 0 12px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(16, 75, 136, 0.14);
+    color: #46515f;
+    font-family: var(--font-body);
+    font-size: var(--text-caption);
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.team-expertise-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.team-expertise-list li {
+    position: relative;
+    padding-left: 18px;
+    color: #46515f;
+    font-family: var(--font-body);
+    font-size: var(--text-body);
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.team-expertise-list li::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    background: #298dff;
+    transform: rotate(45deg);
+}
+
+@media (max-width: 980px) {
+    .team-grid .team-card {
+        flex-basis: calc((100% - clamp(20px, 2.4vw, 28px)) / 2);
+    }
+}
+
+@media (max-width: 640px) {
+    .team-grid .team-card {
+        flex-basis: 100%;
+    }
+}
+
 /* Company timeline */
 .company-timeline-section {
     --color--black: #000;
@@ -1143,6 +1356,135 @@
     font-size: var(--text-body);
     font-weight: 400;
     line-height: 1.618;
+}
+
+.director-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(20px, 2.4vw, 32px);
+}
+
+.director-card {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding: clamp(22px, 2.4vw, 32px);
+    border: 1px solid rgba(16, 75, 136, 0.14);
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+}
+
+.director-card-top {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(16, 75, 136, 0.14);
+}
+
+.director-avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    width: 132px;
+    min-width: 132px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+    background: #eef2f7;
+    color: #8a94a3;
+    overflow: hidden;
+}
+
+.director-avatar img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.director-avatar span {
+    color: #5b6b7f;
+    font-family: var(--font-body);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.director-info {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.director-experience {
+    display: inline-block;
+    align-self: flex-start;
+    margin: 0 0 10px;
+    padding: 5px 14px;
+    border-radius: 999px;
+    background: #e8f1fc;
+    color: #1c5fd6;
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.director-info h3 {
+    margin: 0 0 6px;
+    color: #11151b;
+    font-family: var(--font-display);
+    font-size: var(--text-component-heading);
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+}
+
+.director-role {
+    margin: 0 0 4px;
+    color: #104b88;
+    font-family: var(--font-body);
+    font-size: var(--text-caption);
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+.director-company {
+    margin: 0;
+    color: #5b6b7f;
+    font-family: var(--font-body);
+    font-size: var(--text-caption);
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.director-description {
+    margin: 0;
+    color: #46515f;
+    font-family: var(--font-body);
+    font-size: var(--text-body);
+    font-weight: 400;
+    line-height: 1.65;
+}
+
+@media (max-width: 640px) {
+    .director-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .director-card-top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 @media (max-width: 980px) {

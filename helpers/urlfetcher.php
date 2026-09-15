@@ -151,6 +151,7 @@ function getDocumentRelativeRootPrefix()
         'contact',
         'downloads',
         'investor-relations',
+        'services',
     ];
 
     $parts = explode('/', $scriptDirectory);
