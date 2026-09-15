@@ -298,23 +298,25 @@
 
         <?php
         $companyTimelineItems = [
-            ['year' => '2010', 'title' => 'Foundation year', 'copy' => 'Dummy milestone for 2010 showing the first stage of the broking platform and client service model.'],
-            ['year' => '2011', 'title' => 'Early operations', 'copy' => 'Dummy milestone for 2011 highlighting operational discipline, onboarding support, and relationship-led service.'],
-            ['year' => '2012', 'title' => 'Client routines', 'copy' => 'Dummy milestone for 2012 showing stronger client workflows across trading, account support, and market access.'],
-            ['year' => '2013', 'title' => 'Service depth', 'copy' => 'Dummy milestone for 2013 showing a wider service desk and clearer processes for assisted participation.'],
-            ['year' => '2014', 'title' => 'Access improvement', 'copy' => 'Dummy milestone for 2014 showing better access to trading touchpoints and investor assistance.'],
-            ['year' => '2015', 'title' => 'Platform maturity', 'copy' => 'Dummy milestone for 2015 showing a more mature operating platform for everyday market participation.'],
-            ['year' => '2016', 'title' => 'Digital expansion', 'copy' => 'Dummy milestone for 2016 showing digital touchpoints becoming a larger part of client trading routines.'],
-            ['year' => '2017', 'title' => 'Broader coverage', 'copy' => 'Dummy milestone for 2017 showing coverage across more investor needs and guided service channels.'],
-            ['year' => '2018', 'title' => 'Workflow refinement', 'copy' => 'Dummy milestone for 2018 showing cleaner workflows for research, trading support, and account servicing.'],
-            ['year' => '2019', 'title' => 'Market readiness', 'copy' => 'Dummy milestone for 2019 showing readiness for faster digital service and broader market participation.'],
-            ['year' => '2020', 'title' => 'Remote support', 'copy' => 'Dummy milestone for 2020 showing continuity of trading access, support, and client communication.'],
-            ['year' => '2021', 'title' => 'Participation growth', 'copy' => 'Dummy milestone for 2021 showing stronger investor participation and product discovery.'],
-            ['year' => '2022', 'title' => 'Broader services', 'copy' => 'Dummy milestone for 2022 showing equity, derivatives, IPO, mutual fund, and depository support in one relationship.'],
-            ['year' => '2023', 'title' => 'Client tools', 'copy' => 'Dummy milestone for 2023 showing sharper tools, clearer account support, and better market information.'],
-            ['year' => '2024', 'title' => 'Research focus', 'copy' => 'Dummy milestone for 2024 showing research, live charting, and guided participation becoming more visible.'],
-            ['year' => '2025', 'title' => 'Integrated access', 'copy' => 'Dummy milestone for 2025 showing integrated trading, investment, and relationship-manager support.'],
-            ['year' => '2026', 'title' => 'Future-ready support', 'copy' => 'Dummy milestone for 2026 showing continued focus on service quality, information clarity, and digital convenience.'],
+            ['year' => '2010', 'title' => 'Founded in Kolkata', 'copy' => 'The company was incorporated on 29 April 2010 as Sherwood Securities Private Limited and registered with SEBI as a stock broker from inception. Every year of the firm’s operating history has been inside the regulated securities market.'],
+            // ['year' => '2011', 'title' => 'Early operations', 'copy' => 'Dummy milestone for 2011 highlighting operational discipline, onboarding support, and relationship-led service.'],
+            ['year' => '2012', 'title' => 'Market maker on BSE', 'copy' => 'Registered as a market maker with BSE. Market makers provide continuous two-way quotes on newly listed SME companies, which is demanding, capital-intensive work and a good measure of a broker’s balance sheet discipline.'],
+            // ['year' => '2013', 'title' => 'Service depth', 'copy' => 'Dummy milestone for 2013 showing a wider service desk and clearer processes for assisted participation.'],
+            // ['year' => '2014', 'title' => 'Access improvement', 'copy' => 'Dummy milestone for 2014 showing better access to trading touchpoints and investor assistance.'],
+            // ['year' => '2015', 'title' => 'Platform maturity', 'copy' => 'Dummy milestone for 2015 showing a more mature operating platform for everyday market participation.'],
+            // ['year' => '2016', 'title' => 'Digital expansion', 'copy' => 'Dummy milestone for 2016 showing digital touchpoints becoming a larger part of client trading routines.'],
+            ['year' => '2017', 'title' => 'Base moves to Mumbai', 'copy' => 'The registered office shifted from Kolkata to Mumbai with effect from 6 January 2017, placing the firm at the centre of India’s financial market infrastructure while retaining its Kolkata presence.'],
+            ['year' => '2017', 'title' => 'The Gretex name', 'copy' => 'On 1 September 2017 the company was renamed Gretex Share Broking, formally joining the Gretex Group of companies and aligning the broking business with the group’s wider capital markets practice.'],
+            // ['year' => '2018', 'title' => 'Workflow refinement', 'copy' => 'Dummy milestone for 2018 showing cleaner workflows for research, trading support, and account servicing.'],
+            // ['year' => '2019', 'title' => 'Market readiness', 'copy' => 'Dummy milestone for 2019 showing readiness for faster digital service and broader market participation.'],
+            // ['year' => '2020', 'title' => 'Remote support', 'copy' => 'Dummy milestone for 2020 showing continuity of trading access, support, and client communication.'],
+            ['year' => '2021', 'title' => '20+ companies supported', 'copy' => 'By 29 September 2021 the firm had acted as market maker for more than 20 listed companies — a role that requires standing in the market on both sides of the trade, every trading day, for years at a stretch.'],
+            ['year' => '2022', 'title' => 'Depository participant with NSDL', 'copy' => 'Registered as a depository participant with NSDL (IN-DP-699-2022). Clients can now hold their demat account and their trading account under one roof, with one point of contact for both.'],
+            ['year' => '2023', 'title' => 'Market maker on NSE', 'copy' => 'Added market maker registration with NSE, extending the firm’s market-making reach across both principal exchanges and both SME platforms.'],
+            ['year' => 'Dec 2023 ', 'title' => 'Draft IPO papers filed', 'copy' => 'Filed a Draft Red Herring Prospectus with SEBI on 22 December 2023. The filing disclosed that the firm had by then acted as market maker for 31 companies listed on the SME platforms of the exchanges.'],
+            // ['year' => '2024', 'title' => 'Research focus', 'copy' => 'Dummy milestone for 2024 showing research, live charting, and guided participation becoming more visible.'],
+            ['year' => '2025', 'title' => 'Public listing proposed', 'copy' => 'On 20 November 2025 the parent company informed the exchanges that Gretex Share Broking, its material subsidiary, proposes to undertake an initial public offering, subject to regulatory approvals.'],
+            // ['year' => '2026', 'title' => 'Future-ready support', 'copy' => 'Dummy milestone for 2026 showing continued focus on service quality, information clarity, and digital convenience.'],
         ];
 
         if (!function_exists('renderCompanyTimelineCard')) {
@@ -459,20 +461,9 @@
                         <img src="https://images.unsplash.com/photo-1567157577867-05ccb1388e66?auto=format&amp;fit=crop&amp;w=1200&amp;q=80"
                             alt="Fort Mumbai heritage business street">
                         <span class="location-meta">Gretex Share Broking &bull; Mumbai</span>
-                        <h3>Corporate Office</h3>
-                        <address>Office No. 1220, 12th Floor, B wing, One BKC, Plot No C-66, G Block, Bandra Kurla
-                            Complex,
-                            Bandra East - Mumbai 400051</address>
-                        <span class="location-tag">One BKC</span>
-                    </article>
-
-                    <article class="location-card">
-                        <img src="https://images.unsplash.com/photo-1677306966234-367c40e489bf?auto=format&amp;fit=crop&amp;w=1200&amp;q=80"
-                            alt="Howrah Bridge over the Hooghly River in Kolkata">
-                        <span class="location-meta">Gretex Share Broking &bull; Kolkata</span>
-                        <h3>Kolkata Corporate Office</h3>
-                        <address>90, Phears Lane, 5th Floor, Kolkata-700012</address>
-                        <span class="location-tag">Phears Lane</span>
+                        <h3>Branch Office</h3>
+                        <address>401-402, SPG Empress, Mithakhali Circle, Navrangpura, Ahmedabad -380009.</address>
+                        <span class="location-tag">Mithakhali Circle</span>
                     </article>
                 </div>
             </div>
@@ -480,100 +471,154 @@
 
         <section class="about-management" id="about-management" aria-labelledby="about-management-title">
             <div class="about-shell">
-                <div class="about-section-heading">
-                    <p>Management</p>
-                    <h2 id="about-management-title">Led by people focused on service, discipline, and execution</h2>
+                <div class="about-section-heading about-section-heading--centered">
+                    <span class="about-section-badge">About Gretex Share Broking &bull; Corporate Governance</span>
+                    <h2 id="about-management-title">Leadership &amp; Key Management</h2>
+                    <p class="about-section-subtitle">At the helm of change, governance, and sustained excellence in
+                        the dynamic landscape of financial markets.</p>
                 </div>
 
-                <div class="management-grid">
-                    <article class="management-card">
-                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
-                            alt="">
-                        <div>
-                            <h3>Management Member</h3>
-                            <p class="management-role">Chairperson</p>
-                            <p>Guides the firm's long-term direction, governance standards, and client-first operating
-                                priorities.</p>
+                <div class="director-grid">
+                    <article class="director-card">
+                        <div class="director-card-top">
+                            <div class="director-avatar">
+                                <img src="<?= e(assetUrl('assets/images/alok-harlalkar.jpg')) ?>"
+                                    alt="Alok Harlalka">
+                                <span>Board of Directors</span>
+                            </div>
+                            <div class="director-info">
+                                <span class="director-experience">25 Yrs+ Experience</span>
+                                <h3>Alok Harlalka</h3>
+                                <p class="director-role">Chairman &amp; Joint Managing Director</p>
+                                <p class="director-company">Gretex Share Broking Limited</p>
+                            </div>
                         </div>
+                        <p class="director-description">He is the driving force behind the company, having more
+                            than 25 years of experience in Capital Market and securities market services and also
+                            director of Association of Investment Bankers of India (AIBI). His dynamic leadership
+                            and passion for business has accelerated the growth of the company manifold. Under him,
+                            Gretex has taken a massive leap to emerge as one of the greats among its players.</p>
                     </article>
-                    <article class="management-card">
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
-                            alt="">
-                        <div>
-                            <h3>Management Member</h3>
-                            <p class="management-role">Managing Director</p>
-                            <p>Leads business execution, growth initiatives, and coordination across client-facing
-                                teams.</p>
+                    <article class="director-card">
+                        <div class="director-card-top">
+                            <div class="director-avatar">
+                                <img src="<?= e(assetUrl('assets/images/arvind-harlalka.jpg')) ?>"
+                                    alt="Arvind Harlalka">
+                                <span>Board of Directors</span>
+                            </div>
+                            <div class="director-info">
+                                <span class="director-experience">30 Yrs+ Experience</span>
+                                <h3>Arvind Harlalka</h3>
+                                <p class="director-role">Managing Director &amp; Chief Financial Officer</p>
+                                <p class="director-company">Gretex Share Broking Limited</p>
+                            </div>
                         </div>
+                        <p class="director-description">He has 30 years of experience in the field of accounts,
+                            finance, marketing and manufacturing. He has played a key role in setting up several
+                            businesses and functions for the Group. He continues to play a key role in several
+                            strategic initiatives for the Group, including driving its Human Resources, Strategy
+                            and Business development.</p>
                     </article>
-                    <article class="management-card">
-                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
-                            alt="">
-                        <div>
-                            <h3>Management Member</h3>
-                            <p class="management-role">Whole-time Director</p>
-                            <p>Supports strategic planning, operating discipline, and service delivery across market
-                                segments.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-leadership-team" id="about-leadership-team" aria-labelledby="about-leadership-team-title">
+            <div class="about-shell">
+                <div class="about-section-heading about-section-heading--centered">
+                    <h2 id="about-leadership-team-title">Leadership Team</h2>
+                    <p class="about-section-subtitle about-section-subtitle--accent">At the helm of change and
+                        excellence</p>
+                </div>
+
+                <div class="team-grid">
+                    <article class="team-card">
+                        <div class="team-avatar">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                <circle cx="12" cy="8" r="4"></circle>
+                                <path d="M4 20c0-4.418 3.582-8 8-8s8 3.582 8 8"></path>
+                            </svg>
                         </div>
+                        <span class="team-experience">18 Yrs+ Experience</span>
+                        <h3>Jignesh Lathigra</h3>
+                        <p class="team-role">Head &ndash; Risk Management Services</p>
+                        <p class="team-company">Gretex Share Broking Limited</p>
+                        <p class="team-expertise-label">Area of Expertise:</p>
+                        <ul class="team-expertise-list">
+                            <li>In-depth Understanding of the Financial Market</li>
+                            <li>Risk Identification and Assessment</li>
+                            <li>Regulatory Compliance</li>
+                        </ul>
                     </article>
-                    <article class="management-card">
-                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
-                            alt="">
-                        <div>
-                            <h3>Management Member</h3>
-                            <p class="management-role">Chief Executive Officer</p>
-                            <p>Oversees platform priorities, team alignment, and day-to-day business performance.</p>
+                    <article class="team-card">
+                        <div class="team-avatar">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                <circle cx="12" cy="8" r="4"></circle>
+                                <path d="M4 20c0-4.418 3.582-8 8-8s8 3.582 8 8"></path>
+                            </svg>
                         </div>
+                        <span class="team-experience">30 Yrs+ Experience</span>
+                        <h3>Rajeev Kanotra</h3>
+                        <p class="team-role">Director</p>
+                        <p class="team-company">Gretex Share Broking Limited</p>
+                        <p class="team-expertise-label">Area of Expertise:</p>
+                        <ul class="team-expertise-list">
+                            <li>Equity &amp; Hedging Expertise</li>
+                            <li>Consistent Market Outperformance</li>
+                            <li>Strong Sector &ndash; Micro Insights</li>
+                            <li>M&amp;A, Fund &ndash; Raising &amp; HNI</li>
+                        </ul>
                     </article>
-                    <article class="management-card">
-                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
-                            alt="">
-                        <div>
-                            <h3>Management Member</h3>
-                            <p class="management-role">Chief Compliance Officer</p>
-                            <p>Focuses on regulatory discipline, internal controls, and transparent market practices.
-                            </p>
+                    <article class="team-card">
+                        <div class="team-avatar">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                <circle cx="12" cy="8" r="4"></circle>
+                                <path d="M4 20c0-4.418 3.582-8 8-8s8 3.582 8 8"></path>
+                            </svg>
                         </div>
+                        <span class="team-experience">4 Yrs+ Experience</span>
+                        <h3>Tanishq Harlalka</h3>
+                        <p class="team-role">HOD of Marketing &amp; Strategy</p>
+                        <p class="team-company">Gretex Share Broking Limited</p>
+                        <p class="team-expertise-label">Area of Expertise:</p>
+                        <ul class="team-expertise-list">
+                            <li>Equity &amp; Hedging Expertise</li>
+                            <li>Consistent Market Outperformance</li>
+                            <li>Strong Sector &ndash; Micro Insights</li>
+                            <li>M&amp;A, Fund &ndash; Raising &amp; HNI Portfolio Management</li>
+                        </ul>
                     </article>
-                    <article class="management-card">
-                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
-                            alt="">
-                        <div>
-                            <h3>Management Member</h3>
-                            <p class="management-role">Head of Operations</p>
-                            <p>Coordinates account, depository, and transaction workflows for dependable client support.
-                            </p>
+                    <article class="team-card">
+                        <div class="team-avatar">
+                            <img src="<?= e(assetUrl('assets/images/ganesh.png')) ?>" alt="Ganesh Kedare">
                         </div>
+                        <span class="team-experience">15 Yrs+ Experience</span>
+                        <h3>Ganesh Kedare</h3>
+                        <p class="team-role">Compliance Officer</p>
+                        <p class="team-company">Gretex Share Broking Limited</p>
+                        <p class="team-expertise-label">Area of Expertise:</p>
+                        <ul class="team-expertise-list">
+                            <li>Equity &amp; Hedging Expertise</li>
+                            <li>CDSL &amp; NSDL Audit &amp; DP Compliance</li>
+                            <li>Risk-Based Supervision &amp; Inspection</li>
+                            <li>Internal, Concurrent &amp; System Audits</li>
+                        </ul>
                     </article>
-                    <article class="management-card">
-                        <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
-                            alt="">
-                        <div>
-                            <h3>Management Member</h3>
-                            <p class="management-role">Head of Technology</p>
-                            <p>Supports digital access, platform stability, and practical tools for investors and teams.
-                            </p>
+                    <article class="team-card">
+                        <div class="team-avatar">
+                            <img src="<?= e(assetUrl('assets/images/rashmi-vyas.png')) ?>" alt="Rashmi Vyas">
                         </div>
-                    </article>
-                    <article class="management-card">
-                        <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
-                            alt="">
-                        <div>
-                            <h3>Management Member</h3>
-                            <p class="management-role">Head of Client Service</p>
-                            <p>Leads service standards, communication discipline, and response quality across channels.
-                            </p>
-                        </div>
-                    </article>
-                    <article class="management-card">
-                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
-                            alt="">
-                        <div>
-                            <h3>Management Member</h3>
-                            <p class="management-role">Head of Risk</p>
-                            <p>Monitors process quality, risk controls, and responsible access to trading facilities.
-                            </p>
-                        </div>
+                        <span class="team-experience">Company Secretary</span>
+                        <h3>Rashmi Vyas</h3>
+                        <p class="team-role">Company Secretary &amp; Compliance Officer</p>
+                        <p class="team-company">Gretex Share Broking Limited</p>
+                        <p class="team-expertise-label">Area of Expertise:</p>
+                        <ul class="team-expertise-list">
+                            <li>Corporate Secretarial Practices &amp; Governance</li>
+                            <li>Companies Act, 2013 &amp; SEBI Regulations (LODR &amp; ICDR)</li>
+                            <li>Board &amp; General Meeting Coordination</li>
+                            <li>Regulatory Filings &amp; Disclosures</li>
+                        </ul>
                     </article>
                 </div>
             </div>
